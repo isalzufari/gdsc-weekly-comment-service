@@ -11,11 +11,11 @@ import (
 func main() {
 
 	db := db.OpenDB(
-		os.Getenv("DB_USER"),
-		os.Getenv("DB_PASSWORD"),
-		os.Getenv("DB_HOST"),
-		os.Getenv("DB_PORT"),
-		os.Getenv("DB_DATABASE"),
+		"root",
+		"e5H53cc5AB6-2caAa3baE6Eh2hf5h6H4"
+		"viaduct.proxy.rlwy.net",
+		"5003",
+		"railway",
 	)
 	defer db.Close()
 
