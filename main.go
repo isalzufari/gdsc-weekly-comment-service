@@ -10,11 +10,11 @@ import (
 func main() {
 
 	db := db.OpenDB(
-		"root",
-		"root",
-		"127.0.0.1",
-		"3306",
-		"micro_web_gdsc",
+		os.Getenv("DB_USER"),
+		os.Getenv("DB_PASSWORD"),
+		os.Getenv("DB_HOST"),
+		os.Getenv("DB_PORT"),
+		os.Getenv("DB_DATABASE"),
 	)
 	defer db.Close()
 
