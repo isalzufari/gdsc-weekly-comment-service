@@ -13,7 +13,7 @@ func main() {
 		"root",
 		"e5H53cc5AB6-2caAa3baE6Eh2hf5h6H4",
 		"viaduct.proxy.rlwy.net",
-		"5003",
+		"16588",
 		"railway",
 	)
 	defer db.Close()
