@@ -3,6 +3,7 @@ package main
 import (
 	"commentservice/comment"
 	"commentservice/db"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
